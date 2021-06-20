@@ -1,7 +1,7 @@
 <?php
 
 include ('dbh.inc.php');
-$query = "SELECT * FROM home,section_control,social_media";
+$query = "SELECT * FROM section_control";
 $run = mysqli_query($con, $query);
 $user_data = mysqli_fetch_array($run);
 

@@ -1,6 +1,3 @@
-
-
-
 // Contact
 const form = document.querySelector("form[name='contact-form']");
 const nameInput = document.querySelector("input[name='name']");
