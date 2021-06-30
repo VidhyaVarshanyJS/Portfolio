@@ -75,3 +75,7 @@ if(isFormValid) {
 
 inputFields.forEach((input) => input.addEventListener("input", validateInputs));
 
+setTimeout(function(){
+document.getElementById('contact-form').style.visibility = "visible";
+},1000);
+

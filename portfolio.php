@@ -13,7 +13,7 @@ $user_data = mysqli_fetch_array($run4);
 <html>
 <head>	
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio Site</title>
+	<title>My Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
@@ -63,7 +63,7 @@ $user_data = mysqli_fetch_array($run4);
     </nav>
   <!-- Start Portfolio -->
 <!-- Works -->
-  <section id="works" class="dark">
+  <section style="padding: 40px;" id="works" class="dark">
     <div class="inner-width">
       <h1 class="section-title">My Works</h1>
 

@@ -11,7 +11,6 @@ $user_data = mysqli_fetch_array($run);
 <html>
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
       <title><?=$user_data['title'] ?></title>
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
@@ -99,7 +98,7 @@ if ($user_data['showicons'])
 }
 ?>
       </header>
-       <div class="buttons">   <a href="contact.php"> <button class="btn-grad first" type="button"> <font face="arial" size="5"> Hire Me </font> </button> </a> <a href="cv/Curriculum Vitae.pdf"> <button class="btn-grad second" type="button"> <font face="arial" size="5"> Download&nbsp;CV </font> </button></a>
+       <div class="buttons">   <a href="contact.php"> <button  style="margin: 30px; left: 70px;"class="btn-grad first" type="button"> <font face="arial" size="5"> Hire Me </font> </button></a> <a href="cv/Curriculum Vitae.pdf"> <button  style="margin: 30px; left: 18%;"class="btn-grad second" type="button"> <font face="arial" size="5"> Download&nbsp;CV </font> </button></a>
     </div>
       <!-- End Home -->
    </body>

@@ -39,7 +39,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Validation</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
@@ -100,16 +100,18 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
                </div>
                <div class="item">
                   <i class="fas fa-envelope"></i>
-                  vidhyavarshany03@gmail.com
+                  <a style="color: white;" href="mailto:vidhyavarshany03@gmail.com">
+                  vidhyavarshany03@gmail.com</a>
                </div>
                <div class="item">
                   <i class="fas fa-map-marker-alt"></i>
-                  TamilNadu, India
+                  <a style="color: white;"href="https://www.google.com/maps/place/Coimbatore,+Tamil+Nadu/@11.0116775,76.8971862,12z/data=!4m5!3m4!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!8m2!3d11.0168445!4d76.9558321">  Coimbatore ,TamilNadu, India</a>
+                
                </div>
             </div>
 
 
-        <form  name="contact-form"  id="contact-form" method="post"  >
+        <form  name="contact-form"  id="contact-form" method="post" >
       <div class="form-control">
         <label class="names">Full Name</label>
         <input name="name" id="name" 
@@ -142,12 +144,16 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
 
       <button class="btn" id="submit" name="submit" >Send Message</button>
 
+
     </form>
+        <form action="index.php"><button style="position: absolute; top: 163.7%; left :25%; " class="btn"  type ="submit" >Go to HOME</button></form>
+
+ 
       <div class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125323.40217965248!2d76.89702288216769!3d11.011870040963258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1623910022322!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
- </section>
-  <footer>
+
+  <footer style="padding: 0;">
          <div class="inner-width">
             <div class="copyright">
                &copy; 2021 | Created & Designed By <a href="#">vidhyavarshany</a>
@@ -161,6 +167,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
             </div>
          </div>
       </footer>
+     </section>
       <!-- Go Top BTN -->
       <a href="index.php"><button class="goTop fas fa-arrow-up"></button></a>
 

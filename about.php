@@ -7,7 +7,6 @@ $run2 = mysqli_query($con, $query);
 $user_data = mysqli_fetch_array($run2);
 ?>
 
-
 <!DOCTYPE html>
 <html>
 
@@ -15,7 +14,7 @@ $user_data = mysqli_fetch_array($run2);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Site</title>
+    <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
@@ -81,7 +80,7 @@ $user_data = mysqli_fetch_array($run2);
         <div class="aboutme"><span class="description"><br>
                 <p><?=$user_data['about_desc'] ?></p>
             </span></div><br>
-        <iframe class="embedpdf" align="left" frameborder="0" scrolling="no" width="640" height="480"
+        <iframe style="left: 135px;"class="embedpdf" align="left" frameborder="0" scrolling="no" width="640" height="480"
             src="cv/Curriculum Vitae.pdf">
         </iframe>
         <hr width="100%" color="white" noshade="">

@@ -15,7 +15,7 @@ $user_data = mysqli_fetch_array($run3)
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Site</title>
+  <title>My Skills</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
