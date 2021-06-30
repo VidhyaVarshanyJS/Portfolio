@@ -89,7 +89,7 @@ $user_data = mysqli_fetch_array($run2);
     <!-- Education -->
     <?php if ($user_data['show_education'])
 { ?>
-    <section id="education">
+    <section style = "padding:60px;" id="education">
         <div class="inner-width">
             <h1 class="section-title education">Education & Experiences</h1>
             <div class="time-line">
